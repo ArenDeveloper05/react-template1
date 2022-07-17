@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 83px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 10px 1px rgb(228, 220, 220);
+    z-index: 2;
+}
+.first-header-side{
+    width: 21.5%;
+    height: 100%;
+    border: 1px solid rgb(225, 234, 225);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 39px;
+    margin-top: 3px;
+}
+
+/* icons and icon divs */
+.fa-bars{
+    margin-right: 45px;
+    font-size: 22px;
+    color: rgb(65, 90, 65);
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    font-size: 18px;
+}
+.fa-bars-div{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 42px;
+    margin-bottom: 3px;
+    transition: all 0.5s;
+}
+.fa-bars-div:hover{
+    background-color: rgb(202, 215, 215);
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.fa-language-div{
+    display: flex;
+    align-items: center;
+}
+.fa-search{
+    margin-left: 30px;
+    color: rgb(65, 90, 65);
+    font-size: 13px;
+}
+.header-icon-div{
+    height: 30px;
+    width: 30px;
+    padding-left: 6px;
+    padding-top: 6px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.header-icon-div:hover{
+    background-color: #e8f0ee;
+}
+.fa-language-div{
+    width: 60px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.fa-language{
+    margin-right: 5px;
+}
+.fa-bell-div{
+    position: relative;
+}    
+.fa-logout{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.second-header-side{
+    width: 79%;
+    height: 100%;
+    border: 1px solid rgb(225, 234, 225);
+    border-left-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Searching side */
+.search{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    width: 300px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    text-indent: 15px;
+}
+
+.red-dot{
+    background-color: rgb(216, 36, 4);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    opacity: 0;
+    animation: dot 2s infinite;
+}
+
+/* Logout button  */
+.logout{
+    width: 120px;
+    height: 32px;
+    border-radius: 5px;
+    color:#25695c;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    background-color:#e8f0ee;
+    border: none;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.logout:hover{
+    background-color: #25695c;
+    color: white;
+}
+/* red dot animation */
+@keyframes dot {
+    100%{
+       opacity: 1;
+    }
+}

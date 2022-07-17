@@ -1,0 +1,40 @@
+main{
+    height: max-content;
+    background-color: #f4f6fb;
+    margin-top: 83px;
+    display: flex;
+}
+aside{
+    width: 21.4%;
+    height: 1000px;
+    background-color: white;
+    border: 1px solid rgb(225, 234, 225);
+    border-top-style: none;
+    position: fixed;
+}
+.fixed-panel{
+    width: 50px;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    box-shadow: 1px 10px 10px 1px rgb(214, 208, 208);
+    right: 0%;
+    top: 40%;
+}
+.fixed-panel a{
+    color: #25695c;
+}
+.panel{
+    width: 50px;
+    height: 50px;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.computer-div{
+    background-color: #25695c;
+    color: white;
+}

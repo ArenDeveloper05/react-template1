@@ -1,0 +1,25 @@
+footer{
+    width: 79%;
+    margin-left: 21%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(154, 151, 151);
+    background-color: white;
+}
+.footer-first-text{
+    margin-left: 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.footer-second-text{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.fa-heart{
+    color:#ba895d;
+}

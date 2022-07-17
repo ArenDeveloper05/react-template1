@@ -1,0 +1,108 @@
+.content{
+    width: 100%;
+    margin-left: 21%;
+    padding: 30px;
+}
+.first-content-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.first-content-side ul{
+    display: flex;
+    list-style-type: none;
+}
+.first-content-side ul li a {
+    text-decoration: none;
+    color: rgb(169, 166, 166);
+    margin-left: 10px;
+}
+.deleted{
+    color: rgb(30, 90, 30);
+}
+.second-content-side{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(228, 224, 224);
+    padding: 30px;
+}   
+.todo-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-header a{
+    text-decoration: none;
+    color: rgb(197, 42, 14);
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.todo-body ul  {
+    list-style-type:none;
+}
+.todo-body ul li{
+    margin-top: 20px;
+    border-bottom: 1px solid #e6edef;
+    padding-bottom: 20px;
+}
+.todo-body ul li div{
+    display: flex;
+    align-items: center;
+}
+.bin-div{
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+}
+.done-div{
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
+.bin{
+    margin-left: 5px;
+    color: rgb(26, 82, 26);
+}
+.done{
+    margin-left: 6px; 
+}
+.done-deleted{
+    border: 1px solid rgb(15, 65, 40);
+    border-radius: 5px;
+}
+.bin-div:hover{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.done-div:hover{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.done-red{
+    font-size: 20px;
+    color: rgb(164, 38, 16);
+    margin-right: 9px;
+}
+.todo-body ul li div h3{
+    color: grey;
+    opacity: 0.7;
+}
+.todo-body ul li div h3:hover{
+    opacity: 1;
+}
+.todo-add-button{
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.375rem 1.75rem;
+    background-color: rgb(36, 105, 92);
+    color: white;
+    margin-top: 30px;
+}
+
+
+
